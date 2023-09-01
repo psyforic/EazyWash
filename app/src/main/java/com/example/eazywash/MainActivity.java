@@ -9,6 +9,7 @@ import androidx.appcompat.app.ActionBar;
 import androidx.fragment.app.FragmentActivity;
 import androidx.recyclerview.widget.RecyclerView;
 import com.example.eazywash.ui.fragments.HomeFragment;
+import com.example.eazywash.ui.fragments.NotificationsFragment;
 import com.example.eazywash.ui.fragments.OrdersFragment;
 import com.example.eazywash.ui.fragments.SupportFragment;
 import com.example.eazywash.ui.fragments.subfragments.CompletedFragment;
@@ -30,6 +31,7 @@ public class MainActivity extends AppCompatActivity {
     CompletedFragment completedFragment = new CompletedFragment();
     MenuFragment menuFragment = new MenuFragment();
     HomeFragment homeFragment = new HomeFragment();
+    NotificationsFragment notificationsFragment = new NotificationsFragment();
     OrdersFragment ordersFragment = new OrdersFragment();
     SupportFragment supportFragment = new SupportFragment();
     BottomNavigationView bottomNavigationView;
@@ -73,9 +75,9 @@ public class MainActivity extends AppCompatActivity {
                 case R.id.nav_orders:
                     chooseFragment(ordersFragment);
                     break;
-                // case R.id.nav_home:
-//                    chooseFragment(homeFragment);
-//                    break;
+                case R.id.nav_notifications:
+                    chooseFragment(notificationsFragment);
+                    break;
                 case R.id.nav_support:
                     chooseFragment(supportFragment);
                     break;

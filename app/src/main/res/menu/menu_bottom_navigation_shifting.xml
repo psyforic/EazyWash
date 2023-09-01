@@ -14,12 +14,12 @@
         android:iconTint="@color/colorPrimaryDark"
         app:showAsAction="always"
         android:title="Orders" />
-    <!--    <item-->
-    <!--        android:id="@+id/nav_home"-->
-    <!--        android:icon="@drawable/ic_history"-->
-    <!--        android:iconTint="@color/white"-->
-    <!--        app:showAsAction="always"-->
-    <!--        android:title="History" />-->
+    <item
+        android:id="@+id/nav_notifications"
+        android:icon="@drawable/ic_notifications"
+        android:iconTint="@color/colorPrimaryDark"
+        app:showAsAction="always"
+        android:title="Notifications" />
 
 
     <item
