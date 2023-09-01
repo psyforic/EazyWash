@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/nav_menu"
+        android:icon="@drawable/ic_add"
+        android:iconTint="@color/colorPrimaryDark"
+        app:showAsAction="always"
+        android:title="New Order" />
+    <item
+        android:id="@+id/nav_orders"
+        android:icon="@drawable/ic_orders"
+        android:iconTint="@color/colorPrimaryDark"
+        app:showAsAction="always"
+        android:title="Orders" />
+    <!--    <item-->
+    <!--        android:id="@+id/nav_home"-->
+    <!--        android:icon="@drawable/ic_history"-->
+    <!--        android:iconTint="@color/white"-->
+    <!--        app:showAsAction="always"-->
+    <!--        android:title="History" />-->
+
+
+    <item
+        android:id="@+id/nav_support"
+        android:icon="@drawable/ic_account"
+        android:iconTint="@color/colorPrimaryDark"
+        app:showAsAction="always"
+        android:title="Account" />
+
+</menu>

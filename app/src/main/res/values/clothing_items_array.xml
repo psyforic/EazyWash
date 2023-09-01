@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+   <string-array name="clothing_items">
+       <item>Dress</item>
+       <item>Coat</item>
+       <item>Jersey</item>
+       <item>Jeans</item>
+       <item>Overcoat</item>
+       <item>Suit</item>
+       <item>T-Shirt</item>
+       <item>Shirt</item>
+       <item>Socks</item>
+       <item>Pyjamas</item>
+       <item>Sneakers</item>
+       <item>Linen</item>
+       <item>Shorts</item>
+       <item>Overalls</item>
+       <item>Jacket</item>
+       <item>Blouse</item>
+       <item>Skirt</item>
+       <item>Hoodie</item>
+       <item>Leggings</item>
+       <item>Trousers</item>
+   </string-array>
+</resources>

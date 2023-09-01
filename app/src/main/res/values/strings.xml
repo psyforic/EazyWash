@@ -1,0 +1,36 @@
+<resources>
+    <string name="app_name">EazyWash</string>
+    <string name="slogan">Your dirt.Our job.</string>
+    <string name="please_wait">Please wait. . .</string>
+    <string name="email">Email</string>
+    <string name="password">Password</string>
+    <string name="forgot_password">Forgot password?</string>
+    <string name="register">Don\'t have an account | Sign Up</string>
+    <string name="remember">Remember me</string>
+    <string name="sign_in">Sign In</string>
+    <string name="sign_up">Sign Up</string>
+    <string name="address">Address</string>
+    <string name="already_signed_up">Already have an account | Sign In</string>
+    <string name="create_account">Create account</string>
+    <string name="reset_password">Reset password</string>
+    <string name="reset">Send reset link</string>
+    <string name="todo">TODO</string>
+    <string name="name_surname">Full names .eg, John Doe</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="in_progress">In Progress</string>
+    <string name="str_laundry">Laundry</string>
+    <string name="dry_cleaning">Dry Cleaning</string>
+    <string name="wash_fold"><![CDATA[wash & fold]]></string>
+    <string name="steam_iron">Steam Iron</string>
+    <string name="str_shoe">Shoe Cleaning</string>
+    <string name="str_sofa">Car Seat &amp; Sofa</string>
+    <string name="wash_amp_fold"><![CDATA[Wash & Fold]]></string>
+    <string name="welcome">Welcome</string>
+    <string name="thank_you">Thank You!</string>
+    <string name="share">Share</string>
+    <string name="close">Close</string>
+    <string name="my_order">My Order</string>
+    <string name="let_s_get_started">Let\'s get started</string>
+    <string name="str_continue">Continue</string>
+</resources>

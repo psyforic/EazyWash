@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <com.google.android.material.card.MaterialCardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="@dimen/_5sdp"
+        android:layout_margin="@dimen/_3sdp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal"
+            android:layout_gravity="center"
+            android:background="@color/colorPrimary">
+
+            <ImageView
+                android:id="@+id/imgItem"
+                android:layout_width="80dp"
+                android:layout_height="100dp"
+                android:layout_gravity="center"
+                android:layout_weight="1"
+                app:srcCompat="@drawable/ic_clothing" />
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_weight="1"
+                android:layout_gravity="center_vertical|center_horizontal">
+
+                <TextView
+                    android:id="@+id/tvClothingItem"
+                    android:layout_width="100dp"
+                    android:layout_height="wrap_content"
+                    android:text="T-Shirts"
+                    android:textAlignment="viewStart"
+                    android:fontFamily="@font/manrope_bold"
+                    android:textColor="@color/colorTextIcons"
+                    android:textSize="@dimen/_18sdp" />
+
+                <TextView
+                    android:id="@+id/tvItemPrice"
+                    android:layout_width="100dp"
+                    android:layout_height="wrap_content"
+                    android:text="R13.00 per item"
+                    android:textAlignment="viewStart"
+                    android:fontFamily="@font/manrope_regular"
+                    android:textColor="@color/colorTextIcons"
+                    android:textSize="14sp" />
+
+            </LinearLayout>
+
+            <ImageView
+                android:id="@+id/btnMinus"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:layout_gravity="center"
+                app:tint="@color/colorRed"
+                app:srcCompat="@drawable/ic_subtract" />
+
+            <TextView
+                android:id="@+id/tvNoItems"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:textAlignment="center"
+                android:text="2"
+                android:background="@color/ColorWhiteNote"
+                android:layout_weight="1"
+                android:textFontWeight="500"
+                android:fontFamily="@font/manrope_regular"
+                android:textColor="@color/ColorLightBlack"
+                android:textSize="14sp" />
+
+            <ImageView
+                android:id="@+id/btnAdd"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                app:tint="@color/ColorGreenNote"
+                android:layout_gravity="center"
+                android:layout_weight="1"
+                app:srcCompat="@drawable/ic_add" />
+
+        </LinearLayout>
+
+    </com.google.android.material.card.MaterialCardView>
+</androidx.appcompat.widget.LinearLayoutCompat>

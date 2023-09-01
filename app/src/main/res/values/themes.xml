@@ -1,0 +1,19 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Theme.EazyWash" parent="Theme.MaterialComponents.DayNight.DarkActionBar">
+        <!-- Primary brand color. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryVariant">@color/colorPrimaryDark</item>
+        <item name="colorOnPrimary">@color/colorAccent</item>
+        <item name="colorErrorContainer">@color/colorRed</item>
+        <item name="android:textColorSecondary">@color/white</item>
+        <item name="colorAccent">@color/ColorYellow</item>
+        <!-- Secondary brand color. -->
+        <item name="colorSecondary">@color/ColorYellow</item>
+        <item name="colorSecondaryVariant">@color/colorRed</item>
+        <item name="colorOnSecondary">@color/colorTextIcons</item>
+        <!-- Status bar color. -->
+        <item name="android:statusBarColor">?attr/colorPrimaryVariant</item>
+        <!-- Customize your theme here. -->
+    </style>
+</resources>
