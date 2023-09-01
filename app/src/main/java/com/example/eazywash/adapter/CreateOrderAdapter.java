@@ -39,22 +39,19 @@ public class CreateOrderAdapter extends RecyclerView.Adapter<CreateOrderAdapter.
     @Override
     public MyViewHolder onCreateViewHolder(@NonNull @NotNull ViewGroup parent, int viewType) {
         View view = LayoutInflater.from(parent.getContext()).inflate(R.layout.order_selection_item, parent, false);
-//        view.setOnClickListener(onItemClickListener);
         return new CreateOrderAdapter.MyViewHolder(view, onItemClickListener);
     }
 
     @Override
     public void onBindViewHolder(@NonNull @NotNull CreateOrderAdapter.MyViewHolder holder, int position) {
-        //holder.bind(orderItemsList.get(position), listener);
-        final MyViewHolder myViewHolder = holder;
         items = orderItemsList.get(position);
-        myViewHolder.tvOrderType.setText(items.getDateTime());
-        myViewHolder.cardOrder.setOnClickListener(view -> {
+        holder.tvOrderType.setText(items.getDateTime());
+        holder.cardOrder.setOnClickListener(view -> {
             TastyToast.makeText(view.getContext(), "Selected", TastyToast.LENGTH_LONG, TastyToast.ERROR).show();
             items.setSelected(!items.isSelected());
             //notifyDataSetChanged();
         });
-        myViewHolder.imgItemType.setOnClickListener(new View.OnClickListener() {
+        holder.imgItemType.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
                 TastyToast.makeText(view.getContext(), "Selected", TastyToast.LENGTH_LONG, TastyToast.ERROR).show();
